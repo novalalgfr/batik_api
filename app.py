@@ -76,7 +76,7 @@ def load_batik_model():
     pada model Keras subclass yang disimpan dalam format H5.
     """
     global model
-    MODEL_H5_PATH = 'batik_lite_model.h5'
+    MODEL_H5_PATH = 'batik_lite_model3.h5'
 
     try:
         print(f"Mencoba memuat model: Membuat ulang arsitektur dan memuat weights dari '{MODEL_H5_PATH}'...")
